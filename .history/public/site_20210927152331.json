@@ -1,0 +1,1070 @@
+{
+    "mapType":"google",
+    "center": [116.35187761981169, 39.87271276763761],
+    "status_realtime":1,
+    "SiteMarkData":[],
+    "siteInfo": [{
+                "fieldInfos": [{
+                        "label": "设备号",
+                        "fieldName": "SiteNO"
+                    },
+                    {
+                        "label": "地址名称",
+                        "fieldName": "AreaName"
+                    },
+                    {
+                        "label": "创建时间",
+                        "fieldName": "CreateTime"
+                    },
+                    {
+                        "label": "管道类型",
+                        "fieldName": "PipeType"
+                    }
+                ],
+                "mediaInfos": [
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg",
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg"
+                ],
+                "attributes": {
+                    "Lat": 39.895938873291,
+                    "Lng": 116.341384887695,
+                    "type": 1,
+                    "AreaName": "天宁寺商务委",
+                    "CreateTime": "2021-06-10",
+                    "PipeDepth": "1",
+                    "PipeDiameter": "50",
+                    "PipeId": "",
+                    "PipeMaterial": "铸铁",
+                    "PipeType": "供暖管",
+                    "PlaceAddress": "天宁寺商务委大门外西北角停车位",
+                    "PlaceId": "1",
+                    "PlaceName": "61000060",
+                    "ProjectId": 50,
+                    "RecordId": 6613,
+                    "SiteNO": 610020043460,
+                    "WayToInstall": "管壁",
+                    "WellLidMaterial": "铸铁",
+                    "RecDateTime": ""
+                }
+            }, {
+
+                "fieldInfos": [{
+                        "label": "设备号",
+                        "fieldName": "SiteNO"
+                    },
+                    {
+                        "label": "地址名称",
+                        "fieldName": "AreaName"
+                    },
+                    {
+                        "label": "创建时间",
+                        "fieldName": "CreateTime"
+                    },
+                    {
+                        "label": "管道类型",
+                        "fieldName": "PipeType"
+                    }
+                ],
+                "mediaInfos": [
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg",
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg"
+                ],
+                "attributes": {
+                    "Lat": 39.893938873291,
+                    "Lng": 116.341384887695,
+                    "type": 1,
+                    "AreaName": "天宁寺商务委",
+                    "CreateTime": "2021-06-10",
+                    "PipeDepth": "1",
+                    "PipeDiameter": "50",
+                    "PipeId": "",
+                    "PipeMaterial": "铸铁",
+                    "PipeType": "供暖管",
+                    "PlaceAddress": "天宁寺商务委大门外西北角停车位",
+                    "PlaceId": "1",
+                    "PlaceName": "61000060",
+                    "ProjectId": 50,
+                    "RecordId": 6613,
+                    "SiteNO": 610333232100060,
+                    "WayToInstall": "管壁",
+                    "WellLidMaterial": "铸铁",
+                    "RecDateTime": ""
+                }
+            }, {
+
+                "fieldInfos": [{
+                        "label": "设备号",
+                        "fieldName": "SiteNO"
+                    },
+                    {
+                        "label": "地址名称",
+                        "fieldName": "AreaName"
+                    },
+                    {
+                        "label": "创建时间",
+                        "fieldName": "CreateTime"
+                    },
+                    {
+                        "label": "管道类型",
+                        "fieldName": "PipeType"
+                    }
+                ],
+                "mediaInfos": [
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg",
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg"
+                ],
+                "attributes": {
+                    "Lat": 39.897938873291,
+                    "Lng": 116.341384887695,
+                    "type": 1,
+                    "AreaName": "天宁寺商务委",
+                    "CreateTime": "2021-06-10",
+                    "PipeDepth": "1",
+                    "PipeDiameter": "50",
+                    "PipeId": "",
+                    "PipeMaterial": "铸铁",
+                    "PipeType": "供暖管",
+                    "PlaceAddress": "天宁寺商务委大门外西北角停车位",
+                    "PlaceId": "1",
+                    "PlaceName": "61000060",
+                    "ProjectId": 50,
+                    "RecordId": 6613,
+                    "SiteNO": 610002333601,
+                    "WayToInstall": "管壁",
+                    "WellLidMaterial": "铸铁",
+                    "RecDateTime": ""
+                }
+            },
+            {
+
+                "fieldInfos": [{
+                        "label": "设备号",
+                        "fieldName": "SiteNO"
+                    },
+                    {
+                        "label": "地址名称",
+                        "fieldName": "AreaName"
+                    },
+                    {
+                        "label": "创建时间",
+                        "fieldName": "CreateTime"
+                    },
+                    {
+                        "label": "管道类型",
+                        "fieldName": "PipeType"
+                    }
+                ],
+                "mediaInfos": [
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg",
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg"
+                ],
+                "attributes": {
+                    "Lat": 39.8950383291,
+                    "Lng": 116.341384887695,
+                    "type": 2,
+                    "AreaName": "天宁寺商务委",
+                    "CreateTime": "2021-06-10",
+                    "PipeDepth": "1",
+                    "PipeDiameter": "50",
+                    "PipeId": "",
+                    "PipeMaterial": "铸铁",
+                    "PipeType": "供暖管",
+                    "PlaceAddress": "天宁寺商务委大门外西北角停车位",
+                    "PlaceId": "1",
+                    "PlaceName": "61000060",
+                    "ProjectId": 50,
+                    "RecordId": 6613,
+                    "SiteNO": 610123100060,
+                    "WayToInstall": "管壁",
+                    "WellLidMaterial": "铸铁",
+                    "RecDateTime": ""
+                }
+            },
+            {
+                "Lat": 39.8950383291,
+                "Lng": 116.340384887695,
+                "fieldInfos": [{
+                        "label": "设备号",
+                        "fieldName": "SiteNO"
+                    },
+                    {
+                        "label": "地址名称",
+                        "fieldName": "AreaName"
+                    },
+                    {
+                        "label": "创建时间",
+                        "fieldName": "CreateTime"
+                    },
+                    {
+                        "label": "管道类型",
+                        "fieldName": "PipeType"
+                    }
+                ],
+                "mediaInfos": [
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg",
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg"
+                ],
+                "attributes": {
+                    "type": 1,
+                    "Lat": 39.8950383291,
+                    "Lng": 116.341384887695,
+                    "AreaName": "天宁寺商务委",
+                    "CreateTime": "2021-06-10",
+                    "PipeDepth": "1",
+                    "PipeDiameter": "50",
+                    "PipeId": "",
+                    "PipeMaterial": "铸铁",
+                    "PipeType": "供暖管",
+                    "PlaceAddress": "天宁寺商务委大门外西北角停车位",
+                    "PlaceId": "1",
+                    "PlaceName": "61000060",
+                    "ProjectId": 50,
+                    "RecordId": 6613,
+                    "SiteNO": 2361003060,
+                    "WayToInstall": "管壁",
+                    "WellLidMaterial": "铸铁",
+                    "RecDateTime": ""
+                }
+            },
+            {
+
+                "fieldInfos": [{
+                        "label": "设备号",
+                        "fieldName": "SiteNO"
+                    },
+                    {
+                        "label": "地址名称",
+                        "fieldName": "AreaName"
+                    },
+                    {
+                        "label": "创建时间",
+                        "fieldName": "CreateTime"
+                    },
+                    {
+                        "label": "管道类型",
+                        "fieldName": "PipeType"
+                    }
+                ],
+                "mediaInfos": [
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg",
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg"
+                ],
+                "attributes": {
+                    "Lat": 39.8950383291,
+                    "Lng": 116.349384887695,
+                    "type": 3,
+                    "AreaName": "天宁寺商务委",
+                    "CreateTime": "2021-06-10",
+                    "PipeDepth": "1",
+                    "PipeDiameter": "50",
+                    "PipeId": "",
+                    "PipeMaterial": "铸铁",
+                    "PipeType": "供暖管",
+                    "PlaceAddress": "天宁寺商务委大门外西北角停车位",
+                    "PlaceId": "1",
+                    "PlaceName": "61000060",
+                    "ProjectId": 50,
+                    "RecordId": 6613,
+                    "SiteNO": 8610030060,
+                    "WayToInstall": "管壁",
+                    "WellLidMaterial": "铸铁",
+                    "RecDateTime": ""
+                }
+            },
+            {
+
+                "fieldInfos": [{
+                        "label": "设备号",
+                        "fieldName": "SiteNO"
+                    },
+                    {
+                        "label": "地址名称",
+                        "fieldName": "AreaName"
+                    },
+                    {
+                        "label": "创建时间",
+                        "fieldName": "CreateTime"
+                    },
+                    {
+                        "label": "管道类型",
+                        "fieldName": "PipeType"
+                    }
+                ],
+                "mediaInfos": [
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg",
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg"
+                ],
+                "attributes": {
+                    "Lat": 39.8950383291,
+                    "Lng": 116.349384887695,
+                    "type": 4,
+                    "AreaName": "天宁寺商务委",
+                    "CreateTime": "2021-06-10",
+                    "PipeDepth": "1",
+                    "PipeDiameter": "50",
+                    "PipeId": "",
+                    "PipeMaterial": "铸铁",
+                    "PipeType": "供暖管",
+                    "PlaceAddress": "天宁寺商务委大门外西北角停车位",
+                    "PlaceId": "1",
+                    "PlaceName": "61000060",
+                    "ProjectId": 50,
+                    "RecordId": 6613,
+                    "SiteNO": 1610003060,
+                    "WayToInstall": "管壁",
+                    "WellLidMaterial": "铸铁",
+                    "RecDateTime": ""
+                }
+            },
+            {
+
+                "fieldInfos": [{
+                        "label": "设备号",
+                        "fieldName": "SiteNO"
+                    },
+                    {
+                        "label": "地址名称",
+                        "fieldName": "AreaName"
+                    },
+                    {
+                        "label": "创建时间",
+                        "fieldName": "CreateTime"
+                    },
+                    {
+                        "label": "管道类型",
+                        "fieldName": "PipeType"
+                    }
+                ],
+                "mediaInfos": [
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg",
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg"
+                ],
+                "attributes": {
+                    "type": 5,
+                    "Lat": 39.8550383291,
+                    "Lng": 116.349384887695,
+                    "AreaName": "天宁寺商务委",
+                    "CreateTime": "2021-06-10",
+                    "PipeDepth": "1",
+                    "PipeDiameter": "50",
+                    "PipeId": "",
+                    "PipeMaterial": "铸铁",
+                    "PipeType": "供暖管",
+                    "PlaceAddress": "天宁寺商务委大门外西北角停车位",
+                    "PlaceId": "1",
+                    "PlaceName": "61000060",
+                    "ProjectId": 50,
+                    "RecordId": 6613,
+                    "SiteNO": 6211000060,
+                    "WayToInstall": "管壁",
+                    "WellLidMaterial": "铸铁",
+                    "RecDateTime": ""
+                }
+            },
+            {
+
+                "fieldInfos": [{
+                        "label": "设备号",
+                        "fieldName": "SiteNO"
+                    },
+                    {
+                        "label": "地址名称",
+                        "fieldName": "AreaName"
+                    },
+                    {
+                        "label": "创建时间",
+                        "fieldName": "CreateTime"
+                    },
+                    {
+                        "label": "管道类型",
+                        "fieldName": "PipeType"
+                    }
+                ],
+                "mediaInfos": [
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg",
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg"
+                ],
+                "attributes": {
+                    "Lat": 39.8350383291,
+                    "Lng": 116.349384887695,
+                    "type": 6,
+                    "AreaName": "天宁寺商务委",
+                    "CreateTime": "2021-06-10",
+                    "PipeDepth": "1",
+                    "PipeDiameter": "50",
+                    "PipeId": "",
+                    "PipeMaterial": "铸铁",
+                    "PipeType": "供暖管",
+                    "PlaceAddress": "天宁寺商务委大门外西北角停车位",
+                    "PlaceId": "1",
+                    "PlaceName": "61000060",
+                    "ProjectId": 50,
+                    "RecordId": 6613,
+                    "SiteNO": 7761000060,
+                    "WayToInstall": "管壁",
+                    "WellLidMaterial": "铸铁",
+                    "RecDateTime": ""
+                }
+            },
+            {
+
+                "fieldInfos": [{
+                        "label": "设备号",
+                        "fieldName": "SiteNO"
+                    },
+                    {
+                        "label": "地址名称",
+                        "fieldName": "AreaName"
+                    },
+                    {
+                        "label": "创建时间",
+                        "fieldName": "CreateTime"
+                    },
+                    {
+                        "label": "管道类型",
+                        "fieldName": "PipeType"
+                    }
+                ],
+                "mediaInfos": [
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg",
+                    "https://img1.baidu.com/it/u=597532963,1340421174&fm=26&fmt=auto&gp=0.jpg"
+                ],
+                "attributes": {
+                    "Lat": 39.8950383291,
+                    "Lng": 116.313384887695,
+                    "type": 7,
+                    "AreaName": "天宁寺商务委",
+                    "CreateTime": "2021-06-10",
+                    "PipeDepth": "1",
+                    "PipeDiameter": "50",
+                    "PipeId": "",
+                    "PipeMaterial": "铸铁",
+                    "PipeType": "供暖管",
+                    "PlaceAddress": "天宁寺商务委大门外西北角停车位",
+                    "PlaceId": "1",
+                    "PlaceName": "61000060",
+                    "ProjectId": 50,
+                    "RecordId": 6613,
+                    "SiteNO": 6100020603,
+                    "WayToInstall": "管壁",
+                    "WellLidMaterial": "铸铁",
+                    "RecDateTime": ""
+                }
+            }
+        ],
+
+        "pipeInfo": [{
+                "Id": 7638,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.3413186259545,39.89604633859918],[116.341409821061,39.895847855132075]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7639,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34153320267569,39.89593368582055],[116.34154214315413,39.89578527030963]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7640,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.3415707536019,39.89591759256646],[116.34157611801993,39.89578348211572]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7641,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34160830452811,39.89589077047631],[116.34161366894614,39.89578348211572]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7642,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34164585545432,39.895892558670226],[116.34165121987235,39.89578348211572]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7643,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34444439883168,39.88643562631524],[116.34462142462667,39.88643562631524],[116.3446267890447,39.88592064218438],[116.34423518652852,39.88590991334832]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7644,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34543421152365,39.87174920768301],[116.34544494035971,39.871652648158474]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7645,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34620311165953,39.87178675860922],[116.34620132330191,39.87167410583059]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7646,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34580972078574,39.8717653009371],[116.34581508520377,39.8716580125765]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7647,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34526791456473,39.87166874141256],[116.34625496748221,39.87171702117483],[116.34629430676604,39.87082295139406],[116.3452106939966,39.87078540063156]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7648,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34614767912161,39.87167947024862],[116.34614231470358,39.87177066535513],[116.34650173071158,39.87178675860922]]]",
+                "Symbol": "solid,#1FC3FF,2",
+                "PipeType": "3"
+            },
+            {
+                "Id": 7649,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34633006933463,39.87177781788522],[116.34633006933463,39.87170808045083]]]",
+                "Symbol": "solid,#1FC3FF,2",
+                "PipeType": "3"
+            },
+            {
+                "Id": 7650,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34638907793295,39.87178675860922],[116.34639444235098,39.871584698918],[116.34651782396567,39.8715864869482]]]",
+                "Symbol": "solid,#1FC3FF,2",
+                "PipeType": "3"
+            },
+            {
+                "Id": 7651,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34645881536734,39.87177602977316],[116.34648027303946,39.87127177447836],[116.34766580942404,39.87129859656851],[116.34766044500601,39.87144880027334]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7652,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34681286695731,39.87128250331442],[116.34680213812125,39.87147025794546],[116.34719910505545,39.87148098678152]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7653,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34719910505545,39.87154535979788],[116.34720983389151,39.87128250331442]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7654,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34712400320304,39.87147562236349],[116.34712400320304,39.871384427256984]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7655,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34520354154837,39.871368334002895],[116.34541811826956,39.871379062838955]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7656,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34541990629977,39.871348664442834],[116.34521427038443,39.871336147494716],[116.34528400781882,39.87074248528732]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7657,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34536447408927,39.87126641006033],[116.34519817713034,39.87125568122427],[116.3452089059664,39.871153757281704]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7658,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.3453698385073,39.87122885913412],[116.34528937223685,39.87122349471609],[116.34531082990897,39.87107865542929]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7659,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34620132330191,39.87099818915884],[116.34619238249606,39.87111978266147]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7660,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34614767912161,39.871121570773525],[116.34615840795767,39.87099282474081]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7661,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35793552936362,39.88366573145909],[116.35801063121603,39.88366573145909]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7662,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35792837691538,39.883345654407506],[116.3580034787678,39.883345654407506]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7663,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35793016494559,39.883504798918196],[116.35801063121603,39.883504798918196]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7664,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35792480052756,39.883284857778975],[116.35801063121603,39.883284857778975]]]",
+                "Symbol": "solid,#FF0000,2",
+                "PipeType": "2"
+            },
+            {
+                "Id": 7665,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35793016494559,39.88323657801671],[116.3579677158718,39.88323657801671],[116.35797486864745,39.88294868763701]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7666,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35792480052756,39.8830917387299],[116.35795698703573,39.8830917387299],[116.35795698703573,39.88295226386113]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7667,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.3396870583308,39.87412126149504],[116.33974606692912,39.87412126149504],[116.33974606692912,39.874013973134446]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7668,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.3396334141505,39.87396032895415],[116.3396334141505,39.874019337552475],[116.34061510264995,39.874030066388535]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7669,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34018058478954,39.874024701970505],[116.34018058478954,39.87390668477385],[116.34022350013377,39.87390668477385]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7670,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34012157619121,39.874019337552475],[116.34012694060924,39.87384231175749]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7671,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.33987481296184,39.874024701970505],[116.33988017737987,39.87384231175749]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7747,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35256216396834,39.93948279169081],[116.35434315075423,39.939541800289135],[116.35433242191817,39.939767105846386]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7748,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35259971489455,39.939793927936535],[116.35278210510756,39.939804656772594]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7749,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35597652184295,39.94231551595891],[116.3560033439331,39.942159947836046]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7750,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35599261509704,39.942202863180285],[116.35612136112975,39.942218956434374]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7751,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35595506417083,39.942412075483446],[116.35597115742492,39.94232624479497],[116.35627156483459,39.94236379572118]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7752,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35601943718719,39.94235306688512],[116.35627156483459,39.9423852533933]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7753,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35602480160522,39.94231015154088],[116.35627692925262,39.94234233804906]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7754,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34715224649521,39.93787359102485],[116.34654070283982,39.93785213335273],[116.34656216051194,39.937385428984136]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7755,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.34654606725785,39.937653649885625],[116.34634758379075,39.937642921049566],[116.3463744058809,39.93728350504157]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7756,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35597598280334,39.942284373016356],[116.3559330674591,39.9422736441803]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7757,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35598511652952,39.94225755092622],[116.35594220118529,39.94224682209016]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7760,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35898653740551,39.911073755831076],[116.35888461346295,39.911073755831076]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7761,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35898485160224,39.91102199844372],[116.35888292765968,39.91102199844372]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7762,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35898117298748,39.910816263765646],[116.36022035355236,39.91081089934762]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7763,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35898117298748,39.9107894416755],[116.35905091042187,39.9107894416755]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7764,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.3591099190202,39.910859179109885],[116.3591099190202,39.91075189074929]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7765,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.359254758307,39.910816263765646],[116.359254758307,39.910864543527914]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7766,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.36024181122448,39.91092355212624],[116.36024181122448,39.910837721437765]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7767,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35989848847058,39.9109879251426],[116.36000041241314,39.91099328956063]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7768,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35982338661816,39.91128833255227],[116.36005942101147,39.91128833255227]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7769,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35985020870831,39.911331247896506],[116.35985020870831,39.91122395953591]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7770,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35988775963452,39.911331247896506],[116.35988775963452,39.91122395953591]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7771,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.36002187008526,39.9112936969703],[116.36002187008526,39.911352705568625]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7772,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35995213265088,39.91120250186379],[116.36004869217541,39.91120250186379]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7773,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.360155980536,39.911073755831076],[116.36035625203331,39.9110773322189]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7774,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.36027399773266,39.91113705606205],[116.36027399773266,39.91102547606881]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7775,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.36019174343201,39.91124184090206],[116.36027757412049,39.91124184090206]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7776,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.36018816704419,39.91117567977364],[116.36027828887418,39.91117567977364]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7777,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35944787735608,39.911631655306174],[116.35944787735608,39.911824774355246]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7778,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35948542828228,39.911631655306174],[116.35948542828228,39.91175718265533]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7779,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.3594167641244,39.91177113017495],[116.3594403676947,39.91177113017495],[116.3594693350282,39.91177327590942]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7780,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35946075209031,39.911819409937216],[116.35952941690303,39.9117443080848]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7781,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35954443688061,39.911583375543906],[116.35954443688061,39.91167457065041]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            },
+            {
+                "Id": 7782,
+                "Name": "",
+                "Description": "",
+                "ProjectId": 50,
+                "Paths": "[[[116.35957125897076,39.911567282289816],[116.35957125897076,39.91171748599465]]]",
+                "Symbol": "solid,#1AFF00,2",
+                "PipeType": "0"
+            }
+        ]
+
+    }

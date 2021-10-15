@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Update FeatureLayer using applyEdits() - 4.9</title>
+ 
+    <link rel="stylesheet" href="https://js.arcgis.com/4.20/esri/themes/light/main.css">
+    <script src="https://js.arcgis.com/4.20/"></script>
+    
+    <style>
+        html,
+        body,
+        #viewDiv {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            width: 100%;
+        }
+ 
+        .editArea-container {
+            background: #fff;
+            font-family: "Avenir Next W00", "Helvetica Neue", Helvetica, Arial, sans-serif;
+            line-height: 1.5em;
+            overflow: auto;
+            padding: 12px 15px;
+            width: 300px;
+        }
+ 
+        .edit-button:hover,
+        .edit-button:focus {
+            background-color: #e4e4e4;
+        }
+ 
+        .inputInfo {
+            font-size: 12px;
+            height: 32px;
+            margin-bottom: 6px;
+            padding: 0 6px;
+            width: 100%;
+        }
+ 
+        .list-heading {
+            font-weight: normal;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            color: #323232;
+        }
+ 
+        .edit-button {
+            font-size: 14px;
+            height: 32px;
+            margin-top: 10px;
+            width: 100%;
+            background-color: transparent;
+            border: 1px solid #0079c1;
+            color: #0079c1;
+        }
+ 
+        .or-wrap {
+            background-color: #e0e0e0;
+            height: 1px;
+            margin: 2em 0;
+            overflow: visible;
+        }
+ 
+        .or-text {
+            background: #fff;
+            line-height: 0;
+            padding: 0 1em;
+            position: relative;
+            top: -.75em;
+        }
+ 
+        input:invalid {
+            border: 1px solid red;
+        }
+ 
+        input:valid {
+            border: 1px solid green;
+        }
+ 
+        /* override default style */
+        .esri-feature-form {
+            background: #fff;
+            padding: 0;
+        }
+    </style>
+ 
+    <script>
+        require([
+                "esri/Map",
+                "esri/views/MapView",
+                "esri/layers/FeatureLayer",
+                "esri/Graphic",
+                "esri/widgets/Expand",
+                "esri/widgets/FeatureForm"
+            ],
+            function(
+                Map, MapView, FeatureLayer, Graphic, Expand, FeatureForm
+            ) {
+ 
+                let editFeature, highlight, featureForm, editArea, attributeEditing, updateInstructionDiv;
+ 
+                const featureLayer = new FeatureLayer({
+                    url:  "http://localhost:6080/arcgis/rest/services/hotel/FeatureServer/0",
+                    outFields: ["*"],
+                    popupEnabled: false,
+                    id: "incidentsLayer"
+                });
+ 
+                const map = new Map({
+                    basemap: "gray",
+                    layers: [featureLayer]
+                });
+ 
+                const view = new MapView({
+                    container: "viewDiv",
+                    map: map,
+                    center:[123.5,41.8],
+                    zoom: 11
+                });
+ 
+                setupEditing();
+ 
+                function applyEdits(params) {
+                    unselectFeature();
+                    featureLayer.applyEdits(params).then(function(editsResult) {
+                        //获取新增要素的objectId，调用selectFeature函数高亮改要素
+                        if (editsResult.addFeatureResults.length > 0) {
+                            const objectId = editsResult.addFeatureResults[0].objectId;
+                            selectFeature(objectId);
+                        }
+                    })
+                        .catch(function(error) {
+                            console.log("===============================================");
+                            console.error("[ applyEdits ] FAILURE: ", error.code, error.name,
+                                error.message);
+                            console.log("error = ", error);
+                        });
+                }
+ 
+ 
+                //检查用户是否对要素进行点击
+                view.on("click", function(event) {
+                    // 清楚之前选择的要素
+                    unselectFeature();
+                    //返回与点击屏幕坐标相交的图层要素
+                    view.hitTest(event).then(function(response) {
+                        // If a user clicks on an incident feature, select the feature.
+                        if (response.results[0].graphic && response.results[0].graphic.layer.id == "incidentsLayer") {
+                            selectFeature(response.results[0].graphic.attributes[featureLayer.objectIdField]);
+                        }
+                    });
+                });
+ 
+ 
+                //高亮点击的要素并展示要素表的属性
+                function selectFeature(objectId) {
+                    // query feature from the server
+                    featureLayer.queryFeatures({
+                        objectIds: [objectId],
+                        outFields: ["*"],
+                        returnGeometry: true
+                    }).then(function(results) {
+                        if (results.features.length > 0) {
+                            editFeature = results.features[0];
+ 
+ 
+                            //在表中展示选中要素的属性
+                            featureForm.feature = editFeature;
+ 
+                            // 高亮视图中的要素
+                            view.whenLayerView(editFeature.layer).then(function(layerView){
+                                highlight = layerView.highlight(editFeature);
+                            });
+ 
+                            attributeEditing.style.display = "block";
+                            updateInstructionDiv.style.display = "none";
+                        }
+                    });
+                }
+ 
+ 
+                // 移除高亮的要素和属性
+                function unselectFeature() {
+                    attributeEditing.style.display = "none";
+                    updateInstructionDiv.style.display = "block";
+                    featureForm.feature = null;
+                    if (highlight){
+                        highlight.remove();
+                    }
+                }
+ 
+                // 建立编辑
+                function setupEditing() {
+                    // input boxes for the attribute editing
+                    editArea = document.getElementById("editArea");
+                    updateInstructionDiv = document.getElementById("updateInstructionDiv");
+                    attributeEditing = document.getElementById("featureUpdateDiv");
+                    //创建一个新的要素表并设置他的图层featureLayer，要不表展示在fieldConfig指定的字段的属性
+                    featureForm = new FeatureForm({
+                        container: "formDiv",
+                        layer: featureLayer,
+                        fieldConfig: [
+                            {
+                                name: "HOTELSTAR",
+                                options: {
+                                    label: "选择酒店类型"
+                                }
+                            },
+                            {
+                                name: "NAME",
+                                options: {
+                                    label: "编辑酒店名称信息"
+                                }
+                            },
+                            {
+                                name: "ADDR",
+                                options: {
+                                    label: "编辑酒店地址信息"
+                                }
+                            }
+                        ]
+                    });
+ 
+                    //监听要素表的提交事件
+                    featureForm.on("submit", function(){
+                        if (editFeature) {
+                            // 获取表中更新后的属性,类型为对象
+                            const updated = featureForm.getValues();
+                            //遍历更新的属性并把更新的属性赋值给矢量要素属性
+                            Object.keys(updated).forEach(function(name) {
+                                editFeature.attributes[name] = updated[name];
+                            });
+ 
+                            // Setup the applyEdits parameter with updates.
+                            const edits = {
+                                updateFeatures: [editFeature]
+                            };
+                            applyEdits(edits);
+                        }
+                    });
+ 
+                    // Expand widget for the editArea div.
+                    const editExpand = new Expand({
+                        expandIconClass: "esri-icon-edit",
+                        expandTooltip: "Expand Edit",
+                        expanded: true,
+                        view: view,
+                        content: editArea
+                    });
+ 
+                    view.ui.add(editExpand, "top-right");
+ 
+                    //更新选中要素的属性
+                    document.getElementById("btnUpdate").onclick = function() {
+                        //触发要素表提交事件
+                        featureForm.submit();
+                    }
+ 
+                    //新增酒店按钮创建新的要素
+                    document.getElementById("btnAddFeature").onclick = function () {
+                        unselectFeature();
+                        const handler = view.on("click", function(event) {
+                            handler.remove();
+                            event.stopPropagation();
+ 
+                            if (event.mapPoint) {
+                                point = event.mapPoint.clone();
+                                point.z = undefined;
+                                point.hasZ = false;
+ 
+                                //创建一个hotelstar为经济型的要素
+                                editFeature = new Graphic({
+                                    geometry: point,
+                                    attributes: {
+                                        "hotelstar": "经济型"
+                                    }
+                                });
+ 
+                                const edits = {
+                                    addFeatures: [editFeature]
+                                };
+                                applyEdits(edits);
+                                document.getElementById("viewDiv").style.cursor = "auto";
+                            } else {
+                                console.error("event.mapPoint is not defined");
+                            }
+                        });
+ 
+                        //当用户点击“新增酒店”按钮时，视图上的鼠标光标变成十字花型
+                        document.getElementById("viewDiv").style.cursor = "crosshair";
+                        editArea.style.cursor = "auto";
+                    }
+                    //点击删除按钮时，ApplyEdits被调用，被选择的要素删除
+                    document.getElementById("btnDelete").onclick = function() {
+                        // setup the applyEdits parameter with deletes.
+                        const edits = {
+                            deleteFeatures: [editFeature]
+                        };
+                        applyEdits(edits);
+                    }
+                }
+            });
+    </script>
+</head>
+ 
+<body>
+<div id="editArea" class="editArea-container" style="background-color: rgba(4,95,189,0.2)">
+    <div id="addFeatureDiv">
+        <h3 class="list-heading">空间属性编辑</h3>
+        <ul style="font-size: 13px; padding-left: 1.5em;">
+            <!--<li>点击添加酒店按钮</li>-->
+            <!--<li>在地图上新增一个酒店</li>-->
+            <!--<li>改变酒店类型</li>-->
+        </ul>
+        </ul>
+        <input type="button" class="edit-button" value="新增酒店" id="btnAddFeature">
+    </div>
+ 
+    <div id="updateInstructionDiv" style="text-align:center">
+        <p class="or-wrap">
+            <span class="or-text" style="background-color: rgba(4,95,189,0)">或</span>
+        </p>
+        <p>选择一个酒店编辑或删除.</p>
+    </div>
+ 
+    <div id="featureUpdateDiv" style="display:none; margin-top: 1em;">
+        <h3 class="list-heading">进入酒店信息</h3>
+ 
+        <div id="attributeArea">
+            <div id="formDiv" style="background-color: rgba(4,95,189,0)"></div>
+            <input type="button" class="edit-button" value="更新酒店信息"
+                   id="btnUpdate">
+        </div>
+ 
+        <div id="deleteArea">
+            <input type="button" class="edit-button" value="删除酒店" id="btnDelete">
+        </div>
+    </div>
+</div>
+<div id="viewDiv"></div>
+</body>
+</html>
